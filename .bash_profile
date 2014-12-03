@@ -53,3 +53,10 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # recover keys repetition
 defaults write -g ApplePressAndHoldEnabled -bool false
+
+
+###############################################################################
+# From https://github.com/erwanjegouzo/dotfiles/blob/master/.bash_profile
+# but with MAMP
+###############################################################################
+alias phplog="tail -f /Applications/MAMP/logs/php_error.log"
