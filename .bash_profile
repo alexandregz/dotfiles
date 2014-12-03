@@ -45,3 +45,11 @@ defaults write com.apple.appstore ShowDebugMenu -bool true
 # show filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
+
+
+###############################################################################
+# others
+###############################################################################
+
+# recover keys repetition
+defaults write -g ApplePressAndHoldEnabled -bool false
