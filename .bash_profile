@@ -54,6 +54,9 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # recover keys repetition
 defaults write -g ApplePressAndHoldEnabled -bool false
 
+# show all partitions with Disk Utility
+defaults write com.apple.DiskUtility DUDebugMenuEnabled 1
+
 
 ###############################################################################
 # From https://github.com/erwanjegouzo/dotfiles/blob/master/.bash_profile
