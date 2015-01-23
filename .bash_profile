@@ -1,8 +1,7 @@
-alias ls='ls -G'
-
-# connect to my hosts
-alias voyager='ssh root@192.168.1.8'
-alias sputnik='ssh pi@192.168.1.69'
+# Alias definitions.
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
 
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
