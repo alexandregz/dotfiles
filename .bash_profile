@@ -62,3 +62,6 @@ defaults write com.apple.DiskUtility DUDebugMenuEnabled 1
 # but with MAMP
 ###############################################################################
 alias phplog="tail -f /Applications/MAMP/logs/php_error.log"
+
+# MAMP's mysql
+alias mysqlmamp="/Applications/MAMP/Library/bin/mysql"
