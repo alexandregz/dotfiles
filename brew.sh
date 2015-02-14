@@ -73,7 +73,7 @@ brew tap caskroom/cask
 #brew tap homebrew/head-only
 #brew tap homebrew/php
 #brew tap homebrew/versions
-# brew tap karan/karan
+brew tap karan/karan
 brew tap telemachus/desc
 
 # cask
@@ -81,6 +81,8 @@ brew cask install mamp
 brew cask install jdownloader
 brew cask install vagrant
 
+# joe (gitignore from gh/karan/joe)
+brew install gitignore
 
 # Remove outdated versions from the cellar.
 brew cleanup
