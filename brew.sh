@@ -65,6 +65,7 @@ brew install geoip
 brew install galen
 brew install exiftool
 brew install cpanminus
+brew install sqlite
 
 # taps
 brew tap caskroom/cask
