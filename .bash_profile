@@ -10,6 +10,9 @@ fi
 # token para github, para evitar limites com homebrew
 #export HOMEBREW_GITHUB_API_TOKEN=
 
+# homebrew editor, to create formulae
+export HOMEBREW_EDITOR="vim"
+
 # ---------------------------------
 # PS1 from github.com/fbarbeira
 PS1='\[\033[00;32m\]\u\[\033[01m\]@\[\033[00;36m\]\h\[\033[01m\]:\[\033[00;35m\]\w\[\033[00m\]\[\033[01;30m\]$(__git_ps1 "(%s)")\[\033[00m\]\$ '
