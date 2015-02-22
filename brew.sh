@@ -76,6 +76,11 @@ brew tap caskroom/cask
 #brew tap homebrew/versions
 brew tap karan/karan
 brew tap telemachus/desc
+brew tap alexandregz/mxhomebrew
+
+# my taps
+brew install bashmarks
+brew install lockbash
 
 # cask
 brew cask install mamp
