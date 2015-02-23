@@ -1,4 +1,4 @@
-# alias colores
+# alias cores
 alias backtoblack='echo -e "\033]50;SetProfile=black\a"'
 alias white='echo -e "\033]50;SetProfile=Default\a"'
 
