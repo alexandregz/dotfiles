@@ -27,6 +27,15 @@ CLICOLOR=1
 LSCOLORS=ExFxCxDxBxegedabagacad
 #-----------------------------
 
+#-----------------------------
+# from gh/soulshake/noobash
+function rhost () {
+	host $1|head -1|cut -d ' ' -f 4|xargs host
+}
+# host $(dig squirrel.li +short)
+#-----------------------------
+
+
 
 # quitar erro de 
 # -bash: __git_ps1: command not found
