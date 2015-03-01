@@ -1,4 +1,4 @@
-# alias cores
+# alias cores (NOTE: profiles must be created at iTerm2 prefs)
 alias backtoblack='echo -e "\033]50;SetProfile=black\a"'
 alias white='echo -e "\033]50;SetProfile=Default\a"'
 
