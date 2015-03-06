@@ -35,6 +35,10 @@ function rhost () {
 # host $(dig squirrel.li +short)
 #-----------------------------
 
+#-----------------------------
+# from gh/JaKXz
+brewinfo() { brew info "$1"; brew desc "$1"; } # get all information on a brew package.
+#-----------------------------
 
 
 # quitar erro de 
