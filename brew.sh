@@ -60,6 +60,10 @@ brew install gcc
 # installation method.
 brew install node
 
+brew install go
+brew install docker
+brew install boot2docker
+
 # my utils
 brew install geoip
 brew install galen
