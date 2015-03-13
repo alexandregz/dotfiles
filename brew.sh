@@ -90,6 +90,7 @@ brew install lockbash
 brew cask install mamp
 brew cask install jdownloader
 brew cask install vagrant
+brew cask install kitematic
 
 # joe (gitignore from gh/karan/joe)
 brew install gitignore
