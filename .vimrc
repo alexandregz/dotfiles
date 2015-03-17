@@ -17,3 +17,6 @@ set smartcase                   " ... unless they contain at least one capital l
 
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
+
+" makefiles with tabs
+autocmd FileType make setlocal noexpandtab
