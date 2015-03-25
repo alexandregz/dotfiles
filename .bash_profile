@@ -72,3 +72,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 # show all partitions with Disk Utility
 defaults write com.apple.DiskUtility DUDebugMenuEnabled 1
 
+
+# GOPATH AND gobin
+GOPATH=/Volumes/HD/dev/go
+PATH="/Volumes/HD/dev/go/bin:${PATH}"
