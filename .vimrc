@@ -6,6 +6,9 @@ set number
 
 execute pathogen#infect()
 
+" syntastic perl
+" let g:syntastic_enable_perl_checker = 1
+
 " all lines below from gh/gerhard/setup (comment and sets)
 " Additions from http://mislav.uniqpath.com/2011/12/vim-revisited/
 set nowrap                      " don't wrap lines
@@ -23,8 +26,6 @@ cmap w!! w !sudo tee > /dev/null %
 " makefiles with tabs
 autocmd FileType make setlocal noexpandtab
 
-
 " Airline
 set laststatus=2
-
 let g:airline_theme = 'powerlineish'
