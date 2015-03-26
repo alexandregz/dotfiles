@@ -4,6 +4,8 @@ syntax on
 set title
 set number
 
+execute pathogen#infect()
+
 " all lines below from gh/gerhard/setup (comment and sets)
 " Additions from http://mislav.uniqpath.com/2011/12/vim-revisited/
 set nowrap                      " don't wrap lines
