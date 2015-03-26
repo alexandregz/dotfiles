@@ -20,3 +20,9 @@ cmap w!! w !sudo tee > /dev/null %
 
 " makefiles with tabs
 autocmd FileType make setlocal noexpandtab
+
+
+" Airline
+set laststatus=2
+
+let g:airline_theme = 'powerlineish'
