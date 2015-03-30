@@ -11,3 +11,5 @@ git clone https://github.com/tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive
 git clone https://github.com/bling/vim-airline.git ~/.vim/bundle/vim-airline
 git clone https://github.com/docunext/closetag.vim.git ~/.vim/bundle/closetag.vim
 git clone https://github.com/majutsushi/tagbar.git ~/.vim/bundle/tagbar
+git clone https://github.com/kien/ctrlp.vim ~/.vim/bundle/ctrlp.vim
+
