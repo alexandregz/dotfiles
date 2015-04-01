@@ -28,3 +28,6 @@ alias phplog="tail -f /Applications/MAMP/logs/php_error.log"
 # MAMP's mysql
 alias mysqlmamp="/Applications/MAMP/Library/bin/mysql"
 alias htdocs='cd /Applications/MAMP/htdocs'
+
+# tired to type open -a Preview
+alias preview="open -a Preview $1"
