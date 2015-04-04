@@ -99,3 +99,6 @@ brew install git-open
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# 
+brew install ctags
