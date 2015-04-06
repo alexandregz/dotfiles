@@ -88,6 +88,7 @@ brew install bashmarks
 brew install lockbash
 
 # cask
+brew cask install google-chrome
 brew cask install mamp
 brew cask install jdownloader
 brew cask install vagrant
