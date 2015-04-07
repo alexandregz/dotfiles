@@ -56,6 +56,7 @@ brew install postgresql
 brew install mongodb
 brew install gcc
 brew install ctags
+brew install watch
 
 # Install Node.js. Note: this installs `npm` too, using the recommended
 # installation method.
