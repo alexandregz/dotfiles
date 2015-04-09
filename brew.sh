@@ -94,6 +94,7 @@ brew cask install mamp
 brew cask install jdownloader
 brew cask install vagrant
 brew cask install kitematic
+brew cask install anybar
 
 # joe (gitignore from gh/karan/joe)
 brew install gitignore
