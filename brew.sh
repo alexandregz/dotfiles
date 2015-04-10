@@ -45,6 +45,8 @@ brew install homebrew/php/php55 --with-gmp
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 brew install nmap
 
+# last version
+brew install ruby
 
 # Install other useful binaries.
 brew install git
