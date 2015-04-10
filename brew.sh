@@ -85,6 +85,8 @@ brew tap caskroom/cask
 brew tap karan/karan
 brew tap telemachus/desc
 brew tap alexandregz/mxhomebrew
+brew tap gapple/services
+
 
 # my taps
 brew install bashmarks
