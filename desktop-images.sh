@@ -36,7 +36,6 @@ APPLESCRIPT='tell application "System Events"
 
 mkdir -p $DIR_PICTURES
 
-APPLESCRIPT_COMMAND_IMG=''
 COUNTER=1
 for image in  "${IMAGES[@]}"
 do
