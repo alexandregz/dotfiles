@@ -59,31 +59,6 @@ brewinfo() { brew info "$1"; brew desc "$1"; } # get all information on a brew p
 source ~/.git-prompt.sh
 
 
-###############################################################################
-# From http://github.com/mathiasbynens/dotfiles                               #
-###############################################################################
-
-# Enable the WebKit Developer Tools in the Mac App Store
-defaults write com.apple.appstore WebKitDeveloperExtras -bool true
-
-# Enable Debug Menu in the Mac App Store
-defaults write com.apple.appstore ShowDebugMenu -bool true
-
-# show filename extensions
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-
-
-
-###############################################################################
-# others
-###############################################################################
-
-# recover keys repetition
-defaults write -g ApplePressAndHoldEnabled -bool false
-
-# show all partitions with Disk Utility
-defaults write com.apple.DiskUtility DUDebugMenuEnabled 1
-
 
 # GOPATH AND gobin
 GOPATH=/Volumes/HD/dev/go
