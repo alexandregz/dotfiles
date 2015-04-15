@@ -59,6 +59,7 @@ brew install mongodb
 brew install gcc
 brew install ctags
 brew install watch
+brew install ansible
 
 # Install Node.js. Note: this installs `npm` too, using the recommended
 # installation method.
