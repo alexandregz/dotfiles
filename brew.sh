@@ -105,6 +105,8 @@ brew cask install vagrant
 brew cask install kitematic
 brew cask install anybar
 brew cask install tunnelblick
+brew cask install clipmenu
+
 
 # joe (gitignore from gh/karan/joe)
 brew install gitignore
