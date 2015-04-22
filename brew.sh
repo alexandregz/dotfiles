@@ -106,6 +106,7 @@ brew cask install kitematic
 brew cask install anybar
 brew cask install tunnelblick
 brew cask install clipmenu
+brew cask install atom
 
 
 # joe (gitignore from gh/karan/joe)
