@@ -1,6 +1,9 @@
 # bashmarks
 source /usr/local/Cellar/bashmarks/1.0/libexec/bashmarks.sh
 
+# tired to type open -a Preview
+alias preview="open -a Preview $1"
+
 # Alias definitions.
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
