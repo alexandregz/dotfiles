@@ -57,7 +57,7 @@ brew install git
 brew install imagemagick --with-webp
 brew install lua
 brew install unrar
-brew install python3
+brew install python
 brew install postgresql
 brew install mongodb
 brew install gcc
