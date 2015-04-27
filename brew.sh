@@ -64,6 +64,7 @@ brew install gcc
 brew install ctags
 brew install watch
 brew install ansible
+brew install subversion
 
 # Install Node.js. Note: this installs `npm` too, using the recommended
 # installation method.
