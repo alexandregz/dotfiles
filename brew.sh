@@ -92,11 +92,19 @@ brew tap karan/karan
 brew tap telemachus/desc
 brew tap alexandregz/mxhomebrew
 brew tap gapple/services
+brew tap aspnet/dnx
+
+
+# update after taps
+brew update
 
 
 # my taps
 brew install bashmarks
 brew install lockbash
+
+
+brew install dnvm
 
 # cask
 brew cask install google-chrome
