@@ -64,7 +64,8 @@ brewinfo() { brew info "$1"; brew desc "$1"; } # get all information on a brew p
 # http://stackoverflow.com/questions/12870928/mac-bash-git-ps1-command-not-found
 source ~/.git-prompt.sh
 
-
+# aspnet
+source dnvm.sh
 
 # GOPATH AND gobin
 GOPATH=/Volumes/HD/dev/go
