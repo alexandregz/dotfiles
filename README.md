@@ -1,6 +1,4 @@
 # dotfiles
 my dotfiles
 
-ToDo:
-
 
