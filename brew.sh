@@ -83,7 +83,7 @@ brew install sqlite
 
 # taps
 brew tap caskroom/cask
-#brew tap homebrew/completions
+brew tap homebrew/completions
 #brew tap homebrew/dupes
 #brew tap homebrew/head-only
 #brew tap homebrew/php
@@ -102,7 +102,7 @@ brew update
 # my taps
 brew install bashmarks
 brew install lockbash
-
+brew install boot2docker-completion
 
 brew install dnvm
 
