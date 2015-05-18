@@ -1,6 +1,9 @@
 # bashmarks
 source /usr/local/Cellar/bashmarks/1.0/libexec/bashmarks.sh
 
+# aspnet
+source dnvm.sh
+
 # Alias definitions.
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
