@@ -122,6 +122,7 @@ brew cask install anybar
 brew cask install tunnelblick
 brew cask install clipmenu
 brew cask install atom
+brew cask install xquartz
 
 
 # joe (gitignore from gh/karan/joe)
