@@ -128,7 +128,6 @@ brew cask install xquartz
 # joe (gitignore from gh/karan/joe)
 brew install gitignore
 
-brew install git-open
 
 # Remove outdated versions from the cellar.
 brew cleanup
