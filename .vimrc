@@ -43,7 +43,7 @@ let g:airline_theme = 'powerlineish'
 " TagBar
 " autocmd vimenter * TagbarOpen
 " autocmd vimenter *.php TagbarOpen
-:nmap to :TagbarToggle<CR>
+" :nmap to :TagbarToggle<CR>
 
 " syntastic
 set statusline+=%#warningmsg#
