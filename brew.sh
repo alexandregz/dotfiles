@@ -106,6 +106,8 @@ brew tap aspnet/dnx
 brew update
 
 
+brew install caskroom/cask/brew-cask
+
 # my taps
 brew install bashmarks
 brew install lockbash
