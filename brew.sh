@@ -73,6 +73,7 @@ brew install fswatch
 brew install ansible
 brew install subversion
 
+brew install selenium-server-standalone
 brew install chromedriver
 
 # Install Node.js. Note: this installs `npm` too, using the recommended
