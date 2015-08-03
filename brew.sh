@@ -77,6 +77,8 @@ brew install gawk
 brew install selenium-server-standalone
 brew install chromedriver
 
+brew install carthage
+
 # Install Node.js. Note: this installs `npm` too, using the recommended
 # installation method.
 brew install node
