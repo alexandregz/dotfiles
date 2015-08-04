@@ -11,3 +11,7 @@ sudo gem install cocoapods
 pod setup --verbose
 
 #sudo gem install nokogiri
+
+
+# wheels
+sudo pip install wheel
