@@ -124,7 +124,7 @@ brew install dnvm
 # cask
 brew cask install google-chrome
 brew cask install mamp
-brew cask install jdownloader
+#brew cask install jdownloader
 brew cask install vagrant
 brew cask install kitematic
 brew cask install anybar
