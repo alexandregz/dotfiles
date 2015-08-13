@@ -67,7 +67,7 @@ brew install python
 brew install postgresql
 brew install mongodb
 brew install gcc
-brew install ctags
+# brew install ctags
 brew install watch
 brew install fswatch
 brew install ansible
