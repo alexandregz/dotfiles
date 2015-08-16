@@ -69,7 +69,7 @@ brew install mongodb
 brew install gcc
 # brew install ctags
 brew install watch
-brew install fswatch
+#brew install fswatch
 brew install ansible
 brew install subversion
 brew install gawk
