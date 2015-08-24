@@ -64,7 +64,7 @@ brew install imagemagick --with-webp
 brew install lua
 brew install unrar
 brew install python
-brew install postgresql
+#brew install postgresql
 brew install mongodb
 brew install gcc
 # brew install ctags
