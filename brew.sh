@@ -77,7 +77,7 @@ brew install gawk
 brew install selenium-server-standalone
 brew install chromedriver
 
-brew install gource
+#brew install gource
 
 brew install carthage
 
