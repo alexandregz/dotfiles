@@ -14,3 +14,4 @@ git clone https://github.com/majutsushi/tagbar.git ~/.vim/bundle/tagbar
 git clone https://github.com/kien/ctrlp.vim ~/.vim/bundle/ctrlp.vim
 git clone https://github.com/scrooloose/nerdtree ~/.vim/bundle/nerdtree
 
+git clone https://github.com/Raimondi/delimitMate.git ~/.vim/bundle/delimitMate
