@@ -90,7 +90,7 @@ brew install docker
 brew install boot2docker
 
 # my utils
-brew install geoip
+# brew install geoip
 brew install galen
 brew install exiftool
 brew install cpanminus
