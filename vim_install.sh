@@ -15,3 +15,4 @@ git clone https://github.com/kien/ctrlp.vim ~/.vim/bundle/ctrlp.vim
 git clone https://github.com/scrooloose/nerdtree ~/.vim/bundle/nerdtree
 
 git clone https://github.com/Raimondi/delimitMate.git ~/.vim/bundle/delimitMate
+git clone https://github.com/tomtom/tlib_vim.git ~/.vim/tomtom/tlib_vim
