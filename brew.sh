@@ -80,6 +80,8 @@ brew install chromedriver
 #brew install gource
 
 brew install carthage
+brew install --HEAD https://github.com/codekitchen/dinghy/raw/latest/dinghy.rb
+
 
 # Install Node.js. Note: this installs `npm` too, using the recommended
 # installation method.
