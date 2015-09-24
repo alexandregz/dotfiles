@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 
-# all from:
+# almost from:
 # https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 # https://github.com/paulmillr/dotfiles/blob/master/etc/osx.sh
 
@@ -71,3 +71,6 @@ defaults write com.google.Chrome.canary DisablePrintPreview -bool true
 defaults write com.google.Chrome PMPrintingExpandedStateForPrint2 -bool true
 defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool true
 
+
+# show ~/Library
+chflags nohidden ~/Library/
