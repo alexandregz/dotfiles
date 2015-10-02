@@ -3,6 +3,7 @@ set nocompatible
 syntax on
 set title
 set number
+set relativenumber
 
 " all lines below from gh/gerhard/setup (comment and sets)
 " Additions from http://mislav.uniqpath.com/2011/12/vim-revisited/
