@@ -94,7 +94,7 @@ brew install boot2docker
 
 # my utils
 # brew install geoip
-brew install galen
+#brew install galen
 brew install exiftool
 brew install cpanminus
 brew install sqlite
