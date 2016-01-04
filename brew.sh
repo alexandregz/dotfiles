@@ -74,6 +74,7 @@ brew install watch
 brew install ansible
 brew install subversion
 brew install gawk
+brew install socat
 
 brew install selenium-server-standalone
 brew install chromedriver
