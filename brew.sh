@@ -138,6 +138,7 @@ brew cask install tunnelblick
 #brew cask install clipmenu
 brew cask install atom
 brew cask install xquartz
+brew cask install bitbar
 
 
 # joe (gitignore from gh/karan/joe)
