@@ -117,6 +117,8 @@ brew tap aspnet/dnx
 # update after taps
 brew update
 
+#completions
+brew install homebrew/completions/docker-machine-completion
 
 brew install caskroom/cask/brew-cask
 
