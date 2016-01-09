@@ -141,6 +141,7 @@ brew cask install tunnelblick
 brew cask install atom
 brew cask install xquartz
 brew cask install bitbar
+brew cask install dockertoolbox
 
 
 # joe (gitignore from gh/karan/joe)
