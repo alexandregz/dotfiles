@@ -29,6 +29,5 @@ foreach my $plugin(@plugins_to_activate) {
 }
 
 # restarting BitBar
-my $PID_BITBAR = `ps -Ac -o pid,comm | awk '/^ *[0-9]+ BitBar\$/ {print \$1}'`;
-`/bin/kill -9 $PID_BITBAR`;
+`/usr/bin/killall BitBar`;
 `/usr/bin/open -a BitBar`
