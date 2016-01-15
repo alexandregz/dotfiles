@@ -125,7 +125,7 @@ brew install caskroom/cask/brew-cask
 # my taps
 brew install bashmarks
 brew install lockbash
-brew install boot2docker-completion
+brew install docker-completion
 
 brew install dnvm
 
