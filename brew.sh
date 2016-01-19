@@ -144,6 +144,9 @@ brew cask install bitbar
 brew cask install dockertoolbox
 brew cask install helium
 
+# plugins quicklook
+brew cask install qlimagesize
+
 # joe (gitignore from gh/karan/joe)
 brew install gitignore
 
