@@ -146,6 +146,7 @@ brew cask install helium
 
 # plugins quicklook
 brew cask install qlimagesize
+brew cask install betterzipql
 
 # joe (gitignore from gh/karan/joe)
 brew install gitignore
