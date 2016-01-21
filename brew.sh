@@ -147,6 +147,11 @@ brew cask install helium
 # plugins quicklook
 brew cask install qlimagesize
 brew cask install betterzipql
+# brew cask install qlcolorcode
+# brew cask install qlstephen
+# brew cask install qlmarkdown
+# brew cask install suspicious-package
+# brew cask install provisionql
 
 # joe (gitignore from gh/karan/joe)
 brew install gitignore
