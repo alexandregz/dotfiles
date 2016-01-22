@@ -152,6 +152,7 @@ brew cask install betterzipql
 # brew cask install qlmarkdown
 # brew cask install suspicious-package
 # brew cask install provisionql
+# brew cask install quicklook-json
 
 # joe (gitignore from gh/karan/joe)
 brew install gitignore
