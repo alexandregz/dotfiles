@@ -18,6 +18,7 @@ fi
 
 # homebrew editor, to create formulae
 export HOMEBREW_EDITOR="vim"
+export EDITOR=vim
 
 # ---------------------------------
 # prompt by fbarbeira (https://github.com/fbarbeira/bash/) and ofigueroa
