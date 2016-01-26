@@ -73,3 +73,6 @@ PATH="/Volumes/HD/dev/go/bin:${PATH}"
 # phpenv
 PATH="/Users/alex/.phpenv/bin:$PATH"
 eval "$(phpenv init -)"
+
+# phpbrew
+[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
