@@ -30,6 +30,7 @@ case `id -u` in
 *) PS1="${PS1}$ ";;
 esac
 
+PS1="\[\e]0;\u@\h: \w\a\]$PS1"
 
 alias dir="ls -al"
 alias ll="ls -la"
