@@ -149,7 +149,7 @@ brew cask install qlimagesize
 brew cask install betterzipql
 # brew cask install qlcolorcode
 brew cask install qlstephen
-# brew cask install qlmarkdown
+brew cask install qlmarkdown
 brew cask install suspicious-package
 # brew cask install provisionql
 # brew cask install quicklook-json
