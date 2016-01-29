@@ -93,6 +93,9 @@ brew install go
 brew install docker
 #brew install boot2docker
 
+brew install nginx  
+
+
 # my utils
 # brew install geoip
 #brew install galen
