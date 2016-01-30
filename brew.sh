@@ -138,7 +138,6 @@ brew cask install mamp
 #brew cask install jdownloader
 brew cask install vagrant
 brew cask install kitematic
-#brew cask install anybar
 brew cask install tunnelblick
 #brew cask install clipmenu
 brew cask install atom
