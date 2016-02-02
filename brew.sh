@@ -139,7 +139,6 @@ brew cask install mamp
 brew cask install vagrant
 brew cask install kitematic
 brew cask install tunnelblick
-#brew cask install clipmenu
 brew cask install atom
 brew cask install xquartz
 brew cask install bitbar
