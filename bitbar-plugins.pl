@@ -5,9 +5,9 @@
 use strict;
 use File::Basename;
 
-my @plugins_to_activate=qw(Dev/Vagrant/vagrant.30s.pl System/Battery/mouse.1m.sh Dev/Docker/docker-status.1m.sh);
+my @plugins_to_activate=qw(Dev/Vagrant/vagrant.30s.pl System/Battery/mouse.1m.sh Dev/Docker/docker-status.1m.sh Network/bandwidth-test.2h.sh);
 
-my $renamed = { 'vagrant.30s.pl' => 'vagrant.3m.pl' }; 
+my $renamed = { 'vagrant.30s.pl' => 'vagrant.3m.pl',  'bandwidth-test.2h.sh' => 'bandwidth-test.1d.sh'}; 
 
 my $DIRECTORY_DEVELOPMENT = '/Volumes/HD/Development';
 
