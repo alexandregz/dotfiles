@@ -132,6 +132,8 @@ brew install docker-completion
 
 brew install dnvm
 
+brew install dlite
+
 # cask
 brew cask install google-chrome
 brew cask install mamp
