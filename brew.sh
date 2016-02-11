@@ -61,6 +61,7 @@ brew install ruby
 brew install git
 brew install imagemagick --with-webp
 brew install lua
+brew install luarocks
 brew install unrar
 brew install python
 #brew install postgresql
