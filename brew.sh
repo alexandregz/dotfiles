@@ -95,6 +95,7 @@ brew install docker
 brew install nginx  
 
 brew install composer
+brew install links
 
 # my utils
 # brew install geoip
