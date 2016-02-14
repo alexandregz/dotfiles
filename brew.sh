@@ -60,6 +60,7 @@ brew install ruby
 # Install other useful binaries.
 brew install git
 brew install imagemagick --with-webp
+brew install graphicsmagick
 brew install lua
 brew install luarocks
 brew install unrar
