@@ -132,7 +132,7 @@ brew install bashmarks
 brew install lockbash
 brew install docker-completion
 
-brew install dnvm
+#brew install dnvm
 
 brew install dlite
 
