@@ -39,7 +39,7 @@ brew install gnu-sed --with-default-names
 # running `chsh`.
 brew install bash
 brew install bash-completion
-brew install tree
+#brew install tree
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
