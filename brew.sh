@@ -90,9 +90,6 @@ brew install --HEAD https://github.com/codekitchen/dinghy/raw/latest/dinghy.rb
 brew install node
 
 brew install go
-#brew install docker
-#brew install boot2docker
-
 brew install nginx  
 
 brew install composer
