@@ -37,3 +37,7 @@ alias ll="ls -la"
 PATH=$PATH:/var/packages/JavaManager/target/Java/bin # Synology Java Manager Package
 PATH=$PATH:/var/packages/JavaManager/target/Java/jre/bin # Synology Java Manager Package
 export PATH # Synology Java Manager Package
+
+export GOROOT=/root/go/
+export GOPATH=/root/gocode
+PATH=$PATH:/root/go/bin
