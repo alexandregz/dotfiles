@@ -32,5 +32,5 @@ alias htdocs='cd /Applications/MAMP/htdocs'
 # tired to type open -a Preview
 alias preview="open -a Preview $1"
 
-#docker
+#docker (need docker toolbox)
 alias docker-launch="/Applications/Docker/Docker\ Quickstart\ Terminal.app/Contents/Resources/Scripts/start.sh"
