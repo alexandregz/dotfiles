@@ -16,3 +16,5 @@ git clone https://github.com/scrooloose/nerdtree ~/.vim/bundle/nerdtree
 
 git clone https://github.com/Raimondi/delimitMate.git ~/.vim/bundle/delimitMate
 # git clone https://github.com/tomtom/tlib_vim.git ~/.vim/tomtom/tlib_vim
+
+git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
