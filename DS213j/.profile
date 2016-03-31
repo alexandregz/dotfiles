@@ -1,12 +1,3 @@
-
-umask 022
-
-PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/syno/sbin:/usr/syno/bin:/usr/local/sbin:/usr/local/bin
-export PATH
-
-PATH=$PATH:/opt/bin
-export PATH
-
 #This fixes the backspace when telnetting in.
 #if [ "$TERM" != "linux" ]; then
 #        stty erase
@@ -15,29 +6,38 @@ export PATH
 HOME=/root
 export HOME
 
-TERM=${TERM:-cons25}
-export TERM
+#only for console (ssh/telnet works w/o resize)
+isTTY=$(ps | grep $$ | grep tty)
+#only for bash (bash needs to resize and can support these commands)
+isBash=$(echo $BASH_VERSION)
+#only for interactive (not necessary for "su -")
+isInteractive=$(echo $- | grep i)
 
-PAGER=more
-export PAGER
+if [ -n "$isTTY" -a -n "$isBash" -a -n "$isInteractive" ]; then
+	shopt -s checkwinsize
+	checksize='echo -en "\E7 \E[r \E[999;999H \E[6n"; read -sdR CURPOS;CURPOS=${CURPOS#*[}; IFS="?; \t\n"; read lines columns <<< "$(echo $CURPOS)"; unset IFS'
+	eval $checksize
+	# columns is 1 in Procomm ANSI-BBS
+	if [ 1 != "$columns" ]; then
+		export_stty='export COLUMNS=$columns; export LINES=$lines; stty columns $columns; stty rows $lines'
+		alias resize="$checksize; columns=\$((\$columns - 1)); $export_stty"
+		eval "$checksize; columns=$(($columns - 1)); $export_stty"
 
-# PS1="`hostname`> "
+		alias vim='function _vim(){ eval resize; TERM=xterm vi $@; }; _vim'
+	else
+		alias vim='TERM=xterm vi $@'
+	fi
+	alias vi='vim'
+	alias ps='COLUMNS=1024 ps'
+fi
 
-# new ps1 from http://blog.arinium.fi/2012/09/howto-working-directory-in-synology-ds211j-shell-prompt/
-PS1="`whoami`@`hostname | sed 's/\..*//'`:\w"
-case `id -u` in
-0) PS1="${PS1}# ";;
-*) PS1="${PS1}$ ";;
-esac
+PATH=$PATH:/var/packages/Java7/target/j2sdk-image/bin # Synology Java runtime enviroment
+PATH=$PATH:/var/packages/Java7/target/j2sdk-image/jre/bin # Synology Java runtime enviroment
+export PATH # Synology Java runtime enviroment
 
-PS1="\[\e]0;\u@\h: \w\a\]$PS1"
+PATH=$PATH:/volume1/web/gogs/go/bin
+export PATH
 
-alias dir="ls -al"
-alias ll="ls -la"
-PATH=$PATH:/var/packages/JavaManager/target/Java/bin # Synology Java Manager Package
-PATH=$PATH:/var/packages/JavaManager/target/Java/jre/bin # Synology Java Manager Package
-export PATH # Synology Java Manager Package
 
-export GOROOT=/root/go/
-export GOPATH=/root/gocode
-PATH=$PATH:/root/go/bin
+PATH=$PATH:/opt/bin
+export PATH
