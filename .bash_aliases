@@ -15,8 +15,8 @@ alias ls='ls -G'
 alias dev='cd /Volumes/HD/dev'
 
 # connect to my hosts
-alias voyager='tabdarkorange; ssh root@192.168.1.8; tabcolorreset'
-alias sputnik='backtoblack; tabyellow; ssh pi@192.168.1.69; tabcolorreset; white'
+alias voyager='tabdarkorange; title "root@voyager"; ssh root@192.168.1.8; tabcolorreset'
+alias sputnik='backtoblack; tabyellow; title "pi@sputnik"; ssh pi@192.168.1.69; tabcolorreset; white'
 
 
 ###############################################################################
@@ -34,3 +34,9 @@ alias preview="open -a Preview $1"
 
 #docker (need docker toolbox)
 alias docker-launch="/Applications/Docker/Docker\ Quickstart\ Terminal.app/Contents/Resources/Scripts/start.sh"
+
+function title ()
+{
+    TITLE=$*;
+    echo -ne "\033]0;$TITLE\007"
+}
