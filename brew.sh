@@ -102,6 +102,8 @@ brew install exiftool
 brew install cpanminus
 brew install sqlite
 
+brew install gpg2
+
 # taps
 brew tap caskroom/cask
 brew tap homebrew/completions
