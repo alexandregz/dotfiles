@@ -1,6 +1,7 @@
 [user]
         name = Alexandre Espinosa Menor
         email = aemenor@gmail.com
+        signingkey = A3FE949B
 [credential]
         helper = osxkeychain
 [core]
