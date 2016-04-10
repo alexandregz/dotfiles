@@ -67,12 +67,5 @@ source ~/.git-prompt.sh
 source dnvm.sh
 
 # GOPATH AND gobin
-GOPATH=/Volumes/HD/dev/go
-PATH="/Volumes/HD/dev/go/bin:${PATH}"
-
-# phpenv
-PATH="/Users/alex/.phpenv/bin:$PATH"
-eval "$(phpenv init -)"
-
-# phpbrew
-[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
+export GOPATH=/Volumes/HD/Development/go/
+PATH="/Volumes/HD/Development/go/bin:${PATH}"
