@@ -7,6 +7,7 @@ alias tabyellow='echo -e "\033]6;1;bg;red;brightness;255\a" && echo -e "\033]6;1
 alias tabdarkorange='echo -e "\033]6;1;bg;red;brightness;255\a" && echo -e "\033]6;1;bg;green;brightness;140\a" && echo -e "\033]6;1;bg;blue;brightness;0\a" '
 alias tabcolorreset='echo -e "\033]6;1;bg;*;default\a"'
 alias tabgreen='echo -e "\033]6;1;bg;green;brightness;255\a"'
+alias tabblue='echo -e "\033]6;1;bg;red;brightness;120\a" && echo -e "\033]6;1;bg;green;brightness;100\a" && echo -e "\033]6;1;bg;blue;brightness;255\a"'
 
 
 alias ls='ls -G'
