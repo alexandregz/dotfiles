@@ -116,6 +116,7 @@ brew tap telemachus/desc
 brew tap alexandregz/mxhomebrew
 brew tap gapple/services
 brew tap aspnet/dnx
+brew tap owntracks/recorder
 
 
 # update after taps
@@ -134,6 +135,9 @@ brew install docker-completion
 #brew install dnvm
 
 brew install dlite
+
+# owntracks tap
+brew install recorder
 
 # cask
 brew cask install google-chrome
