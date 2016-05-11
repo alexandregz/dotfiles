@@ -6,7 +6,8 @@ echo "Checking pip path..."
 which pip
 if [ $? = 1 ]; then
         echo "Installing pip..."
-        curl -k https://raw.githubusercontent.com/pypa/pip/master/contrib/get-pip.py | python
+        # curl -k https://raw.githubusercontent.com/pypa/pip/master/contrib/get-pip.py | python
+        curl -k https://bootstrap.pypa.io/get-pip.py | python
 fi
 
 
