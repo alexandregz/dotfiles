@@ -152,6 +152,8 @@ brew cask install bitbar
 brew cask install dockertoolbox
 brew cask install helium
 
+brew cask install whatsapp
+
 # plugins quicklook
 brew cask install qlimagesize
 brew cask install betterzipql
