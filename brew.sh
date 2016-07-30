@@ -164,6 +164,8 @@ brew cask install suspicious-package
 # brew cask install provisionql
 # brew cask install quicklook-json
 
+brew cask install gitup
+
 brew install ntfs-3g
 
 # Remove outdated versions from the cellar.
