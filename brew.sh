@@ -136,6 +136,8 @@ brew install docker-completion
 
 brew install dlite
 
+brew install keybase
+
 # owntracks tap
 brew install recorder
 
