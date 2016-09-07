@@ -138,6 +138,8 @@ brew install dlite
 
 brew install keybase
 
+brew install android-platform-tools
+
 # owntracks tap
 brew install recorder
 
