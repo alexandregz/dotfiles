@@ -158,6 +158,8 @@ brew cask install helium
 
 brew cask install whatsapp
 
+brew cask install apptivate
+
 # plugins quicklook
 brew cask install qlimagesize
 brew cask install betterzipql
