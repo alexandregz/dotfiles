@@ -174,6 +174,9 @@ brew cask install gitup
 
 brew install ntfs-3g
 
+brew install --cask stats
+
+
 # Remove outdated versions from the cellar.
 brew cleanup
 
